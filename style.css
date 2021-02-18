@@ -1,0 +1,121 @@
+.font{
+    font-family: 'PT Sans', sans-serif;
+}
+.mid-content{
+    width: 1300px;
+    margin: auto;
+}
+
+.clear::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align-last: left;
+}
+.text-right{
+    text-align: right;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+a{
+    text-decoration: none;
+    display: block;
+}
+
+/* top-header */
+.top-header{
+border-top: 2px solid #4540bc;
+margin-top: 10px;
+}
+
+.logo img {
+	margin-top: 10px;
+	width: 247px;
+}
+.header-manu{}
+.header-manu ul{
+
+}
+.header-manu ul li{
+    display: inline-block;
+    margin: 7px 7px;
+}
+.header-manu ul li a{
+    color: #808080;
+}
+.header-manu ul li a:hover{}
+
+
+/* banner-section */
+
+.banner-section {
+	background: url(./mip_grad_2019_-_throwing_hatsweb.jpg) no-repeat center;
+	background-size: cover;
+	padding: 250px 0;
+}
+.banner-section h5 {
+	color: white;
+	font-size: 20px;
+	font-weight: 500;
+}
+.banner-section h1 {
+	color: white;
+	font-size: 50px;
+	font-weight: 600;
+}
+.banner-section a {
+	color: white;
+	background: #4570d8;
+	display: inline-block;
+	padding: 15px 38px;
+}
+
+/* .content */
+.content{
+    margin: 70px 0;
+    background-color: #fff;
+}
+.s-conteny{
+    width: 50%;
+}
+.s-conteny h2{}
+.s-conteny p{}
+.s-conteny h3{}
+.s-conteny h4{}
+
+/* form-section */
+.form-section {
+	background-color: #f5f5f5;
+	padding: 50px 0;
+}
+.ip-title h3 {
+	font-size: 35px;
+	font-weight: 500;
+}
+.form-contact{
+}
+.form-title{
+    width: 50%;
+}
+.form-title span i{
+    font-size: 20px;
+}
+
+.form-item input{
+    width: 580px;
+}
+/* footer-section */
+.footer-section{
+    background-color: #171a21;
+    color: white;
+    padding: 10px 0;
+}
